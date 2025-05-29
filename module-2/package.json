@@ -1,0 +1,20 @@
+{
+  "name": "module-2",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "express": "^5.1.0",
+    "express-session": "^1.18.1",
+    "install": "^0.13.0",
+    "npm": "^11.3.0"
+  }
+}
