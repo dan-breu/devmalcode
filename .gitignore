@@ -1,50 +1,44 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
-# dependencies
+# Dependencies
 node_modules/
-/.pnp
-.pnp.*
-.yarn/*
-!.yarn/patches
-!.yarn/plugins
-!.yarn/releases
-!.yarn/versions
-**/package-lock.json
-/module-1/package-lock.json
-/module-2/package-lock.json
-/module-3/package-lock.json
-/module-1/node_modules/ 
-/module-2/node_modules/
-/module-3/node_modules/
 
-# testing
-/coverage
+# Lock files
+package-lock.json
+yarn.lock
 
-# next.js
-/.next/
-/out/
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
-# production
-/build
-
-# misc
-.DS_Store
-*.pem
-
-# debug
+# Logs
+logs
+*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# env files (can opt-in for committing if needed)
-.env*
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
 
-# vercel
-.vercel
+# Coverage directory used by tools like istanbul
+coverage/
 
-# typescript
-*.tsbuildinfo
-next-env.d.ts
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
 
-# Sentry Config File
-.env.sentry-build-plugin
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
